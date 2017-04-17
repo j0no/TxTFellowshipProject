@@ -1,0 +1,49 @@
+html {
+  background-color: white;
+  text-align: center;
+  padding: 0; }
+
+#app {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  display: block; }
+
+@media only screen and (max-width: 600px) {
+  #app {
+    width: 100%; } }
+
+#outputBox {
+  display: block;
+  background: #56CCF2;
+  color: white;
+  padding: 20px 10px;
+  font-size: 25px; }
+
+.input {
+  width: 100%;
+  display: block;
+  text-align: center;
+  border-width: 0.6px;
+  border-color: black;
+  border-radius: 10px;
+  padding: 10px 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  outline: none;
+  font-size: 20px; }
+
+#go {
+  border-radius: 20px;
+  background-color: #2D9CDB;
+  text-align: center;
+  padding: 5px 20px;
+  width: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 20px; }
+
+#inputs {
+  padding: 10px 10px; }
